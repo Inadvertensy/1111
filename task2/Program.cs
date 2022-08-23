@@ -19,15 +19,16 @@ static void Main (string[] args)
             int max = 0;
 
             int iterator = number1;
-
+//iterator=798
             while(iterator !=0)
             {
                 int number2=iterator%10;
-
+//number2=8
                 if(number2>max) max=number2;
 
                 iterator/=10;
-                
+                //iterator=iterator/10
+//iterator=79
                 
             }
         }
